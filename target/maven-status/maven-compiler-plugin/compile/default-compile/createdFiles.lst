@@ -1,0 +1,6 @@
+com/example/sparketl/RestaurantDataProcessor.class
+com/example/sparketl/Main.class
+com/example/sparketl/DataJoiner.class
+com/example/sparketl/GeoHashGenerator.class
+com/example/sparketl/GeoLocationUpdater.class
+com/example/sparketl/ParquetWriter.class
