@@ -15,16 +15,14 @@ project-root/
 │   └── processed-restaurant-data/  # Processed data output in Parquet format
 ├── src/
 │   ├── main/
-│   │   ├── java/
-│   │   │   └── com.example.sparketl/
-│   │   │       ├── DataProcessor.java     # Handles data loading and filtering
-│   │   │       ├── GeoHashGenerator.java  # Generates geohash for data enrichment
-│   │   │       ├── GeoLocationUpdater.java # Uses OpenCage API to update geolocation data
-│   │   │       ├── DataJoiner.java         # Joins restaurant and weather data
-│   │   │       ├── Main.java               # Main class to run the pipeline
-│   │   │       └── ParquetWriter.java      # Writes output data in Parquet format
-│   │   └── resources/
-│   │       └── .env                        # Stores OpenCage API key securely
+│   │   └── java/
+│   │      └── com.example.sparketl/
+│   │          ├── DataProcessor.java     # Handles data loading and filtering
+│   │          ├── GeoHashGenerator.java  # Generates geohash for data enrichment
+│   │          ├── GeoLocationUpdater.java # Uses OpenCage API to update geolocation data
+│   │          ├── DataJoiner.java         # Joins restaurant and weather data
+│   │          ├── Main.java               # Main class to run the pipeline
+│   │          └── ParquetWriter.java      # Writes output data in Parquet format       
 │   └── test/
 │       └── java/
 │           └── com.example.sparketl/
